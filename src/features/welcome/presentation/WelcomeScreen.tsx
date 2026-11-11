@@ -8,7 +8,7 @@ export function WelcomeScreen() {
     <Screen>
       <View style={styles.content}>
         <Text accessibilityRole="header" style={styles.title}>
-          WeGlow 2.0
+          WeGlow!
         </Text>
       </View>
     </Screen>
