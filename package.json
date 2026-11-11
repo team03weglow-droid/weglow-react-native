@@ -29,6 +29,8 @@
     "typescript": "~6.0.3"
   },
   "scripts": {
+    "postinstall": "node scripts/apply-onnx-gradle-patch.cjs",
+    "patch:onnx": "node scripts/apply-onnx-gradle-patch.cjs",
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
