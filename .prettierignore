@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+android/
+ios/
+dist/
+coverage/
+artifacts/
+package-lock.json
+# Preserve historical planning/audit documents as supplied.
+docs/SYSTEM_AUDIT.md
+docs/ARCHITECTURE.md
+docs/MIGRATION_PLAN.md
+docs/FIGMA_SCREEN_MAPPING.md
+docs/STAGE_2_REPORT.md
