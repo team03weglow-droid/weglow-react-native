@@ -23,7 +23,7 @@ const config: ExpoConfig = {
   userInterfaceStyle: 'light',
   icon: './assets/icon.png',
   scheme: `weglow-${appEnvironment}`,
-  plugins: ['expo-dev-client'],
+  plugins: ['expo-dev-client', 'onnxruntime-react-native'],
   ios: {
     bundleIdentifier: identifiers[appEnvironment],
     supportsTablet: true,
