@@ -1,0 +1,97 @@
+{
+  "source": "Unmodified upstream font files; licenses included beside each family.",
+  "sources": {
+    "inter": "https://github.com/rsms/inter/releases/tag/v4.1",
+    "instrumentSerif": "https://github.com/google/fonts/tree/main/ofl/instrumentserif",
+    "plusJakartaSans": "https://github.com/tokotype/PlusJakartaSans"
+  },
+  "license": "SIL Open Font License 1.1",
+  "files": [
+    {
+      "file": "instrument-serif/InstrumentSerif-Italic.ttf",
+      "bytes": 71592,
+      "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385",
+      "weight": 400,
+      "names": {
+        "1": "Instrument Serif",
+        "2": "Italic",
+        "6": "InstrumentSerif-Italic"
+      }
+    },
+    {
+      "file": "inter/Inter-Bold.ttf",
+      "bytes": 420428,
+      "sha256": "288316099b1e0a47a4716d159098005eef7c0066921f34e3200393dbdb01947f",
+      "weight": 700,
+      "names": {
+        "1": "Inter",
+        "2": "Bold",
+        "6": "Inter-Bold"
+      }
+    },
+    {
+      "file": "inter/Inter-Regular.ttf",
+      "bytes": 411640,
+      "sha256": "40d692fce188e4471e2b3cba937be967878f631ad3ebbbdcd587687c7ebe0c82",
+      "weight": 400,
+      "names": {
+        "1": "Inter",
+        "2": "Regular",
+        "6": "Inter-Regular"
+      }
+    },
+    {
+      "file": "inter/Inter-SemiBold.ttf",
+      "bytes": 419744,
+      "sha256": "78a843fade9d4612a5567302fb595b56976eb5fcebf4fea5a5912d638bafcde3",
+      "weight": 600,
+      "names": {
+        "1": "Inter SemiBold",
+        "2": "Regular",
+        "6": "Inter-SemiBold",
+        "16": "Inter",
+        "17": "SemiBold"
+      }
+    },
+    {
+      "file": "plus-jakarta-sans/PlusJakartaSans-Regular.ttf",
+      "bytes": 128972,
+      "sha256": "bd6276d4060e3b1ebc45047469e0bb86b08f301ba681cdf1ceb6245ea10478d2",
+      "weight": 400,
+      "source": "https://raw.githubusercontent.com/tokotype/PlusJakartaSans/master/fonts/ttf/PlusJakartaSans-Regular.ttf",
+      "gitBlobSha": "cb874458c3911fcb7a12da70f66e4154863c9841"
+    },
+    {
+      "file": "plus-jakarta-sans/PlusJakartaSans-Medium.ttf",
+      "bytes": 129180,
+      "sha256": "c77bab757d7402ec6d9341d5f7ddaafb2474e17026792697ba4624c7dc89caf7",
+      "weight": 500,
+      "source": "https://raw.githubusercontent.com/tokotype/PlusJakartaSans/master/fonts/ttf/PlusJakartaSans-Medium.ttf",
+      "gitBlobSha": "5d8dd8ab476e4bc9766af41d9ee0e183da2c15fe"
+    },
+    {
+      "file": "plus-jakarta-sans/PlusJakartaSans-SemiBold.ttf",
+      "bytes": 129288,
+      "sha256": "65dbcedb6596a41c30869729eb31cb57d1f5edfe365684314bba8a1994eaa4cb",
+      "weight": 600,
+      "source": "https://raw.githubusercontent.com/tokotype/PlusJakartaSans/master/fonts/ttf/PlusJakartaSans-SemiBold.ttf",
+      "gitBlobSha": "c12d4b0e72bde4d78af22aa73184024d2495bef3"
+    },
+    {
+      "file": "plus-jakarta-sans/PlusJakartaSans-Bold.ttf",
+      "bytes": 128988,
+      "sha256": "5f5342ef76862b5b5365d1dff1a667629dfa484e388dd602552f647219c3870f",
+      "weight": 700,
+      "source": "https://raw.githubusercontent.com/tokotype/PlusJakartaSans/master/fonts/ttf/PlusJakartaSans-Bold.ttf",
+      "gitBlobSha": "2d49642350842c27fc88ff90d6445eeda1766f7e"
+    },
+    {
+      "file": "plus-jakarta-sans/PlusJakartaSans-ExtraBold.ttf",
+      "bytes": 128888,
+      "sha256": "7d60d21b5dec501c77437e80aabd539f1d7a7b0ac7d4ada361d4d42abc7c55ea",
+      "weight": 800,
+      "source": "https://raw.githubusercontent.com/tokotype/PlusJakartaSans/master/fonts/ttf/PlusJakartaSans-ExtraBold.ttf",
+      "gitBlobSha": "2ae35660dc8a2cc1169e7de96b61cb12c887207d"
+    }
+  ]
+}
