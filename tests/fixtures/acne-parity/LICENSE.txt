@@ -1,0 +1,8 @@
+Synthetic fixture images and generator created for WeGlow parity testing.
+No third-party images, personal photographs, or trained-model assets are included.
+
+To the extent copyright applies to these newly generated fixture images and their
+manifest, they are dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+This dedication does not apply to Pillow, the WeGlow model, or existing app code.

@@ -2,6 +2,8 @@ import { Platform, StyleSheet, Text, View } from 'react-native';
 
 import { OnnxSmokeTestControl } from '../../../dev/onnx-smoke/OnnxSmokeTestControl';
 
+import { RealYoloTestControl } from '../../../dev/onnx-yolo/RealYoloTestControl';
+
 import { theme } from '../../../shared/theme/theme';
 import { Screen } from '../../../shared/ui/Screen';
 
@@ -12,7 +14,12 @@ export function WelcomeScreen() {
         <Text accessibilityRole="header" style={styles.title}>
           WeGlow!
         </Text>
-        {__DEV__ && Platform.OS === 'android' ? <OnnxSmokeTestControl /> : null}
+        {__DEV__ && Platform.OS === 'android' ? (
+          <>
+            <OnnxSmokeTestControl />
+            <RealYoloTestControl />
+          </>
+        ) : null}
       </View>
     </Screen>
   );
